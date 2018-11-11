@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Todolist</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <h1>ToDolist</h1>
+    <div class="main">
+        <input type="text" name="text" id="text" placeholder="请输入将要做的事">
+        <div class="show_todo">
+            <ul>
+                <li>
+                    <input type="checkbox" name="checkbox" checked="true">
+                    <span class="checked">将要做的事情</span>
+                    <a href="javascript:void(0)" id="clean">x</a>
+                </li>
+            </ul>
+        </div>
+        <div class="detail">
+            <div id="count">
+                <span>0</span> 个待办
+            </div>
+            <div id="clr">
+                <a href="###">清除已完成</a>
+                <a href="###">清除全部</a>
+                <a href="###">返回</a>
+                <a href="###">保存</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+    	<p>输入框中输入完成后按enter添加内容</p>
+    	<p>使用localStorage保存数据，点击返回返回上一次的保存的结果</p>
+    </footer>
+</body>
+<script type="text/javascript" src="main.js"></script>
+
+</html>
